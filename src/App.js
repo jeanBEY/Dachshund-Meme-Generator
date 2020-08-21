@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import MemeGenerator from "./MemeGenerator"
-import './App.css';
+import Header from "./Header"
 
 function App() {
   return(
     <div>
-      <p>Hello Dachshund</p>
+      <Header />
       <MemeGenerator />
     </div>
   )
